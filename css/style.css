@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style-type: none;
+}
+
+.clr{
+    clear: both;
+}
+
+
+/*================= slider1====================*/
+
+
+#slider1{
+    position: relative;
+}
+
+
+#slider1 .left{
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    z-index: 999;
+   
+}
+
+#slider1 .right{
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    z-index: 999;
+   
+}
+
+#slider1 i{
+    width: 50px;
+    height: 50px;
+    background-color: #A04000;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.slick-dots li{
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgb(211, 22, 201);
+    display: inline-block;
+    margin: 0 5px;
+    text-align: center;
+    
+}
+
+.slick-dots li button{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(233, 21, 205);
+    color: transparent;
+   border: 0;
+   border-radius: 50%;
+   opacity: 0;
+  
+}
+
+.slick-dots{
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+    transform: translateX(-50%);
+}
+
+.slick-dots li.slick-active button{
+    opacity: 1;
+}
+
+
+#slider2{
+    margin-top: 50px;
+    position: relative;
+}
+
+.slider2-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+      display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    text-align: center;
+    
+}
+
+.content h1{
+    font-size: 50px;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.content p{
+    font-size: 15px;
+    text-transform: capitalize;
+    color: #fff;
+       max-width: 700px;
+    line-height: 1;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    text-align: justify;
+    line-height: 20px;
+}
+
+.content a{
+    padding: 10px 30px;
+    background-color: teal;
+    color: white;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+
+#slider3{
+    margin-top: 50px;
+}
+
+.slider3{
+    position: relative;
+}
+
+.slider3-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-3-copy{
+    padding-bottom: 50px;
+}
+
+#slider4{
+    margin-top: 50px;
+}
+
+
+
+.slider4-item{
+    position: relative;
+}
+
+.slider4-overlay{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
